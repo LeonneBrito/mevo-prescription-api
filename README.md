@@ -16,7 +16,7 @@ Foco em validações robustas, suporte a arquivos grandes via streaming e logs H
   - `doctor_uf` deve ser um estado válido (UF).
   - `duration` ≤ 90 dias (ou ≤ 60 dias se controlado).
   - Medicamentos controlados exigem `notes`.
-  - `days`/`frequency` pode ser:
+  - `frequency` pode ser:
     - número (`8`)
     - intervalo (`8/8h`)
     - `"Se necessário"` (PRN)
